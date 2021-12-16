@@ -1,0 +1,251 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+.title {
+    text-align: center;
+    background-color: #030414;
+    color: white;
+    height: 70px;
+    padding-top: 10px;
+}
+.nav-link {
+    text-align: center;
+    font-weight: bold;
+}
+.nav-link:hover {
+    background-color: black;
+}
+nav {
+    margin-top: -8px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left, #9d9b9b, #eeecec);
+}
+.slider {
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: auto;
+}
+.slides {
+    width: 500px;
+    height: 500px;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+.slide img {
+    width: 800px;
+    height: 500px;
+}
+/*manual slider part*/
+.navigation-manual {
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+.manual-btn {
+    border: 2px solid #ff4203;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+.manual-btn:hover {
+    background: #ff4203;
+}
+
+#radio1:checked ~ .first {
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+    margin-left: -160%;
+}
+
+#radio3:checked ~ .first {
+    margin-left: -320%;
+}
+
+#radio4:checked ~ .first {
+    margin-left: -480%;
+}
+
+.navigation-auto {
+    position: absolute;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    margin-top: 460px;
+}
+.navigation-auto div {
+    border: 2px solid #ff4203;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.navigation-auto div:not(:last-child) {
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+    background: #ff4203;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+    background: #ff4203;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+    background: #ff4203;
+}
+#radio4:checked ~ .navigation-auto .auto-btn4 {
+    background: #ff4203;
+}
+
+/*next part from slider image*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 200px;
+}
+.icon {
+    width: 50%;
+    float: left;
+    border: 0.5px solid gray;
+}
+#con {
+    z-index: 1;
+}
+.viewdetail {
+    color: orangered;
+    font-weight: bold;
+}
+.courses {
+    width: 80%;
+    box-shadow: 0px 0px 10px 2px black;
+    margin: 10px auto;
+}
+.news {
+    width: 97%;
+    box-shadow: 0px 0px 10px 2px black;
+    margin: 10px auto;
+}
+.newsimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 180px;
+    height: 200px;
+}
+.newsicon {
+    color: orangered;
+    margin-left: 5px;
+}
+
+.container-fluid {
+    background-color: #616161;
+}
+
+.card {
+    background-color: #616161;
+    color: white;
+    margin-top: 50px;
+    border: none;
+}
+
+.head1 {
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.bdr {
+    border-bottom: 1.5px solid #ffb74d;
+    width: 65px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.card-footer {
+    justify-content: space-between;
+    border: none;
+    background: none;
+    border-bottom: 0.5px solid #9e9e9e;
+}
+
+.footer-right > i {
+    margin-left: 15px;
+}
+
+.fa-hand-holding-usd {
+    color: #ffb74d;
+}
+
+.fa-handshake {
+    color: #ffb74d;
+}
+
+.card-title {
+    margin-bottom: 0.75rem;
+    font-weight: 900;
+    font-size: 15px;
+    margin-top: 1.75rem;
+}
+
+.learn-more {
+    color: #ffb74d;
+}
+
+.fa-angle-right {
+    margin-left: 10px;
+}
+
+.fa-3x {
+    color: #ffb74d;
+}
+
+.card-content {
+    padding-right: 40px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.card-content > p {
+    color: #9e9e9e;
+}
+
+.heading {
+    position: relative;
+    top: 75px;
+}
+
+.follow-text {
+    color: #9e9e9e;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+}

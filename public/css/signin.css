@@ -1,0 +1,256 @@
+div {
+    display: block;
+}
+
+body {
+    background: #eeeeee;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+.form {
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    max-width: 30%;
+    margin: 0 auto 10px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.logo {
+    background: #414141;
+    padding-bottom: 15px;
+    padding-top: 0px;
+    margin-bottom: 23px;
+    min-width: 300px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.col-xs-12 {
+    width: 100%;
+}
+.skills-logo {
+    position: relative;
+    right: 0;
+    background: #414141;
+    margin-bottom: 15px;
+    height: 91px;
+    vertical-align: middle;
+    line-height: 80px;
+    margin: 0 auto;
+    text-align: center;
+    border: solid 6px #ffffff;
+    border-top: 0px;
+    z-index: 999999;
+    border-radius: 0px 0px 16px 16px;
+    margin-bottom: 25px;
+}
+
+img {
+    padding-bottom: 12px;
+    margin: 0 auto;
+}
+
+.forminput {
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 1px solid #ccc;
+    margin: 0 0 15px;
+    padding: 15px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.fontAwesome1 {
+    font-family: "Helvetica", FontAwesome, sans-serif;
+    color: black;
+}
+
+.pull-left {
+    float: left;
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 500;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.formbutton {
+    outline: 0;
+    background: #337ab7;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color: #ffffff;
+    font-size: 14px;
+}
+.skill-logo {
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 75%;
+    padding-right: 10px;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.eye-changepassword {
+    bottom: 36%;
+    right: 10%;
+    position: absolute;
+    color: #bfbfbf;
+    padding-left: 10px;
+    border-left: 1px solid #bfbfbf;
+}
+.firstdiv {
+    z-index: 1;
+    right: 50px;
+    bottom: 0;
+    position: fixed;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fa-eye:before {
+    content: "\f06e";
+}
+
+.cd-btn {
+    position: relative;
+    display: inline-block;
+    padding: 0;
+    background-color: transparent;
+    color: #ffffff;
+    border-radius: 0em;
+    -webkit-transition: -webkit-box-shadow 0.2s;
+    transition: -webkit-box-shadow 0.2s;
+    transition: box-shadow 0.2s;
+    transition: box-shadow 0.2s;
+}
+
+a {
+    text-decoration: none;
+}
+
+#tufail {
+    max-width: 125px;
+    background-color: #eeeeee;
+}
+
+.seconddiv {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 532px;
+    width: 340px;
+    visibility: hidden;
+    transition: visibility 0s 0.6s;
+    z-index: 500;
+}
+
+.thirddiv {
+    right: 19px;
+    top: 0px;
+    position: absolute;
+    width: auto;
+    height: 50px;
+    line-height: 50px;
+    background: transparent;
+    z-index: 2;
+}
+
+.firsta::before {
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: 10px;
+    height: 3px;
+    width: 14px;
+    background-color: #fff;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.firsta {
+    top: 120px;
+    position: absolute;
+    right: 25px;
+    height: 32px;
+    width: 32px;
+    display: inline-block;
+    overflow: hidden;
+    text-indent: 65px;
+    white-space: nowrap;
+    background: rgba(243, 78, 59, 0.95);
+    background: #424f5c;
+    border-radius: 25px;
+}
+
+.fourthdiv {
+    position: fixed;
+    width: 310px;
+    max-width: 310px;
+    height: 0%;
+    bottom: 0;
+    background: transparent;
+    z-index: 1;
+}
+
+.fifthdiv {
+    bottom: 10px;
+    position: absolute;
+    right: 7px;
+    width: auto;
+    height: auto;
+    padding: 165px 0 0 117px;
+    overflow: auto;
+}
+
+.pops-msgs {
+    position: initial;
+    text-align: center;
+    background: url(/Images/msgbg.png) no-repeat left;
+    min-height: 200px;
+    padding: 25px 50px 50px 50px;
+    position: absolute;
+    top: -10px;
+    right: 2px;
+    width: 294px;
+    height: 191px;
+    color: #fff;
+    font-size: 17px;
+    font-style: italic;
+    line-height: 21px;
+    font-weight: 700;
+}
+.pops-msgs img {
+    max-width: 150px;
+    margin: 10px 20px;
+}
+
+.robottufail {
+    margin-left: 50px;
+    width: 200px;
+}
